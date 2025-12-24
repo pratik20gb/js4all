@@ -1,7 +1,7 @@
 # JS4All - Your Complete JavaScript Learning Hub
 
 <div align="center">
-  <img src="./public/js4all.png" alt="JS4All Logo" width="200" />
+  <img src="./public/js4all.png" alt="JS4All Logo" width="500" />
   
   <h3>Master JavaScript with curated resources, interactive quizzes, and comprehensive roadmaps</h3>
   
