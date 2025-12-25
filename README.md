@@ -7,7 +7,7 @@
   
   <p>
     <a href="https://js4all.site">🌐 Live Website</a> •
-    <a href="https://github.com/pratik20gb/quiz-bright-mind-main">📖 Documentation</a> •
+    <a href="https://github.com/pratik20gb/js4all">📖 Documentation</a> •
     <a href="https://x.com/sage_pratik">🐦 Twitter</a>
   </p>
   
@@ -33,8 +33,8 @@ JS4All is a comprehensive JavaScript learning platform designed to help develope
 
 Or clone and run locally:
 ```bash
-git clone https://github.com/pratik20gb/quiz-bright-mind-main.git
-cd quiz-bright-mind-main
+git clone https://github.com/pratik20gb/js4all.git
+cd js4all
 npm install
 npm run dev
 ```
@@ -90,8 +90,8 @@ This project is built with modern web technologies:
 
 1. **Clone the repository:**
    ```bash
-   git clone <YOUR_GIT_URL>
-   cd quiz-bright-mind-main
+   git clone https://github.com/pratik20gb/js4all.git
+   cd js4all
    ```
 
 2. **Install dependencies:**
@@ -120,7 +120,7 @@ This project is built with modern web technologies:
 ## 📁 Project Structure
 
 ```
-quiz-bright-mind-main/
+js4all/
 ├── public/
 │   ├── js4all.jpg          # Project logo
 │   ├── sagelogo.png        # Favicon
@@ -232,6 +232,6 @@ This project is open source and available under the [MIT License](LICENSE).
   <p>
     <a href="https://js4all.site">Visit JS4All</a> •
     <a href="https://x.com/sage_pratik">Follow on X</a> •
-    <a href="https://github.com/pratik20gb/quiz-bright-mind-main">Star on GitHub</a>
+    <a href="https://github.com/pratik20gb/js4all">Star on GitHub</a>
   </p>
 </div>
