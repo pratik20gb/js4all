@@ -5,15 +5,39 @@
   
   <h3>Master JavaScript with curated resources, interactive quizzes, and comprehensive roadmaps</h3>
   
+  <p>
+    <a href="https://js4all.site">🌐 Live Website</a> •
+    <a href="https://github.com/pratik20gb/quiz-bright-mind-main">📖 Documentation</a> •
+    <a href="https://x.com/sage_pratik">🐦 Twitter</a>
+  </p>
+  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
   [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+  [![Website](https://img.shields.io/badge/Website-js4all.site-blue)](https://js4all.site)
 </div>
 
 ## 🚀 Overview
 
 JS4All is a comprehensive JavaScript learning platform designed to help developers master JavaScript from fundamentals to advanced topics. The platform combines curated resources, interactive quizzes, and structured learning roadmaps to provide an all-in-one learning experience.
+
+**🌐 Live at:** [https://js4all.site](https://js4all.site)
+
+## ⚡ Quick Start
+
+1. **Visit the live site:** [js4all.site](https://js4all.site)
+2. **Explore resources:** Browse curated documentation, books, and courses
+3. **Take a quiz:** Test your knowledge with interactive quizzes
+4. **Follow the roadmap:** Learn step-by-step from basics to advanced
+
+Or clone and run locally:
+```bash
+git clone https://github.com/pratik20gb/quiz-bright-mind-main.git
+cd quiz-bright-mind-main
+npm install
+npm run dev
+```
 
 ## ✨ Features
 
@@ -131,13 +155,19 @@ quiz-bright-mind-main/
 
 ## 🚢 Deployment
 
-The project is ready for deployment on various platforms:
+The project is deployed and live at **[js4all.site](https://js4all.site)** using Vercel with a custom domain.
 
-### Vercel
+### Vercel (Recommended)
 ```bash
 npm run build
 vercel deploy
 ```
+
+**Custom Domain Setup:**
+- Domain: `js4all.site`
+- Configured via Vercel dashboard
+- Automatic HTTPS enabled
+- See `DOMAIN_SETUP.md` for detailed setup instructions
 
 ### Netlify
 ```bash
@@ -181,6 +211,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Pratik Raj** (sage)
 
+- 🌐 Website: [js4all.site](https://js4all.site)
 - X (Twitter): [@sage_pratik](https://x.com/sage_pratik)
 - GitHub: [@pratik20gb](https://github.com/pratik20gb/)
 
@@ -192,6 +223,15 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
+---
+
 <div align="center">
-  Made with ❤️ by <a href="https://github.com/pratik20gb">Pratik Raj</a>
+  <p>
+    <strong>Made with ❤️ by <a href="https://github.com/pratik20gb">Pratik Raj</a></strong>
+  </p>
+  <p>
+    <a href="https://js4all.site">Visit JS4All</a> •
+    <a href="https://x.com/sage_pratik">Follow on X</a> •
+    <a href="https://github.com/pratik20gb/quiz-bright-mind-main">Star on GitHub</a>
+  </p>
 </div>
