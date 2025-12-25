@@ -1,7 +1,7 @@
 # JS4All - Your Complete JavaScript Learning Hub
 
 <div align="center">
-  <img src="./public/js4all.png" alt="JS4All Logo" width="500" />
+  <img src="./public/js4all.jpg" alt="JS4All Logo" width="500" />
   
   <h3>Master JavaScript with curated resources, interactive quizzes, and comprehensive roadmaps</h3>
   
@@ -98,7 +98,7 @@ This project is built with modern web technologies:
 ```
 quiz-bright-mind-main/
 ├── public/
-│   ├── js4all.png          # Project logo
+│   ├── js4all.jpg          # Project logo
 │   ├── sagelogo.png        # Favicon
 │   └── robots.txt          # SEO configuration
 ├── src/
