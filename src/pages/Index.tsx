@@ -14,7 +14,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="pt-24 pb-16 px-6">
+      <main className="pt-20 sm:pt-24 pb-16 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           {/* Hero Section */}
           <motion.div
@@ -39,9 +39,9 @@ const Index = () => {
               Curated resources, books, and interactive quizzes to master JavaScript from fundamentals to advanced topics. All documentation links point to MDN Web Docs.
             </p>
 
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              <Link to="/quiz">
-                <Button variant="hero" size="xl" className="min-w-[200px]">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 w-full sm:w-auto">
+              <Link to="/quiz" className="w-full sm:w-auto">
+                <Button variant="hero" size="xl" className="w-full sm:min-w-[200px] justify-center">
                   <Play className="w-5 h-5" />
                   Start Quiz
                 </Button>
@@ -50,8 +50,9 @@ const Index = () => {
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="w-full sm:w-auto"
               >
-                <Button variant="outline" size="xl" className="min-w-[200px]">
+                <Button variant="outline" size="xl" className="w-full sm:min-w-[200px] justify-center">
                   <BookOpen className="w-5 h-5" />
                   MDN Docs
                 </Button>
@@ -156,8 +157,8 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
-                <Link to="/quiz">
-                  <Button variant="hero" size="xl" className="min-w-[240px]">
+                <Link to="/quiz" className="inline-block">
+                  <Button variant="hero" size="xl" className="w-full sm:w-auto sm:min-w-[240px] justify-center">
                     <Play className="w-5 h-5" />
                     Start Quiz
                     <ArrowRight className="w-5 h-5" />

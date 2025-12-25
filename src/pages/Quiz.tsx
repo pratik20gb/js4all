@@ -58,7 +58,7 @@ const Quiz = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="pt-24 pb-16 px-6">
+      <main className="pt-20 sm:pt-24 pb-16 px-4 sm:px-6">
         <AnimatePresence mode="wait">
           {gameState === "home" && (
             <motion.div
@@ -135,7 +135,7 @@ const Quiz = () => {
                   variant="hero"
                   size="xl"
                   onClick={handleStartQuiz}
-                  className="min-w-[240px]"
+                  className="w-full sm:w-auto sm:min-w-[240px] justify-center"
                 >
                   <Play className="w-6 h-6" />
                   Start Quiz

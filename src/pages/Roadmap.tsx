@@ -53,7 +53,7 @@ const Roadmap = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="pt-24 pb-16 px-6">
+      <main className="pt-20 sm:pt-24 pb-16 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <motion.div
@@ -66,7 +66,7 @@ const Roadmap = () => {
               <MapIcon className="w-4 h-4 text-primary" />
               <span className="text-sm font-medium text-primary">Learning Path</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-foreground mb-4">
               JavaScript
               <span className="text-gradient"> Roadmap</span>
             </h1>
@@ -84,7 +84,7 @@ const Roadmap = () => {
           >
             <div className="flex items-center gap-3 mb-6">
               <Code2 className="w-6 h-6 text-primary" />
-              <h2 className="text-3xl font-bold text-foreground">Fundamentals</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Fundamentals</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {fundamentals.map((node, index) => {
@@ -177,7 +177,7 @@ const Roadmap = () => {
           >
             <div className="flex items-center gap-3 mb-6">
               <Target className="w-6 h-6 text-primary" />
-              <h2 className="text-3xl font-bold text-foreground">Career Paths</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Career Paths</h2>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {fields.map((node, index) => {
@@ -287,7 +287,7 @@ const Roadmap = () => {
           >
             <div className="flex items-center gap-3 mb-6">
               <Layers className="w-6 h-6 text-primary" />
-              <h2 className="text-3xl font-bold text-foreground">Libraries & Tools</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Libraries & Tools</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
               {libraries.map((node, index) => {
